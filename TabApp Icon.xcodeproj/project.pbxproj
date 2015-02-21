@@ -15,6 +15,11 @@
 		D15227BA1A98F8880071EA71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15227B91A98F8880071EA71 /* Images.xcassets */; };
 		D15227BD1A98F8880071EA71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15227BB1A98F8880071EA71 /* LaunchScreen.xib */; };
 		D15227C91A98F8880071EA71 /* TabApp_IconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D15227C81A98F8880071EA71 /* TabApp_IconTests.m */; };
+		D15227D51A98F9D80071EA71 /* logo_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = D15227D31A98F9D80071EA71 /* logo_120x120.png */; };
+		D15227D61A98F9D80071EA71 /* logo_180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = D15227D41A98F9D80071EA71 /* logo_180x180.png */; };
+		D15227D91A98FB570071EA71 /* mail03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D15227D71A98FB570071EA71 /* mail03@2x.png */; };
+		D15227DA1A98FB570071EA71 /* profile01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D15227D81A98FB570071EA71 /* profile01@2x.png */; };
+		D15227DC1A98FD4D0071EA71 /* tab_boy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D15227DB1A98FD4D0071EA71 /* tab_boy@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,11 @@
 		D15227C21A98F8880071EA71 /* TabApp IconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TabApp IconTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15227C71A98F8880071EA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D15227C81A98F8880071EA71 /* TabApp_IconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabApp_IconTests.m; sourceTree = "<group>"; };
+		D15227D31A98F9D80071EA71 /* logo_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_120x120.png; sourceTree = "<group>"; };
+		D15227D41A98F9D80071EA71 /* logo_180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_180x180.png; sourceTree = "<group>"; };
+		D15227D71A98FB570071EA71 /* mail03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail03@2x.png"; sourceTree = "<group>"; };
+		D15227D81A98FB570071EA71 /* profile01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile01@2x.png"; sourceTree = "<group>"; };
+		D15227DB1A98FD4D0071EA71 /* tab_boy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_boy@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,7 @@
 		D152279D1A98F8880071EA71 = {
 			isa = PBXGroup;
 			children = (
+				D15227D21A98F9D80071EA71 /* imgs */,
 				D15227A81A98F8880071EA71 /* TabApp Icon */,
 				D15227C51A98F8880071EA71 /* TabApp IconTests */,
 				D15227A71A98F8880071EA71 /* Products */,
@@ -122,6 +133,19 @@
 				D15227C71A98F8880071EA71 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D15227D21A98F9D80071EA71 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				D15227DB1A98FD4D0071EA71 /* tab_boy@2x.png */,
+				D15227D71A98FB570071EA71 /* mail03@2x.png */,
+				D15227D81A98FB570071EA71 /* profile01@2x.png */,
+				D15227D31A98F9D80071EA71 /* logo_120x120.png */,
+				D15227D41A98F9D80071EA71 /* logo_180x180.png */,
+			);
+			name = imgs;
+			path = "TabApp Icon/imgs";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,8 +228,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15227D91A98FB570071EA71 /* mail03@2x.png in Resources */,
+				D15227D61A98F9D80071EA71 /* logo_180x180.png in Resources */,
 				D15227B81A98F8880071EA71 /* Main.storyboard in Resources */,
+				D15227D51A98F9D80071EA71 /* logo_120x120.png in Resources */,
 				D15227BD1A98F8880071EA71 /* LaunchScreen.xib in Resources */,
+				D15227DA1A98FB570071EA71 /* profile01@2x.png in Resources */,
+				D15227DC1A98FD4D0071EA71 /* tab_boy@2x.png in Resources */,
 				D15227BA1A98F8880071EA71 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
